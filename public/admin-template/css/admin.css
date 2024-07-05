@@ -1,0 +1,78 @@
+/* admin-template/css/admin.css */
+
+/* Reset some default styles */
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Layout styles */
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.main-sidebar {
+    width: 250px;
+    background-color: #343a40;
+    color: #fff;
+    height: 100%;
+    position: fixed;
+}
+
+.main-sidebar .sidebar {
+    padding: 20px;
+}
+
+.main-sidebar .nav {
+    list-style: none;
+    padding: 0;
+}
+
+.main-sidebar .nav li {
+    margin: 10px 0;
+}
+
+.main-sidebar .nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.main-header {
+    width: calc(100% - 250px);
+    margin-left: 250px;
+    background-color: #f8f9fa;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-wrapper {
+    margin-left: 250px;
+    padding: 20px;
+    width: calc(100% - 250px);
+}
+
+.content {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Other custom styles */
+.navbar-light {
+    background-color: #f8f9fa;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(0, 0, 0, 0.7);
+}
